@@ -40,8 +40,7 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         viewResolver.setCache(true);
         viewResolver.setPrefix("");
         viewResolver.setSuffix(".ftl");
-//        viewResolver.setContentType("text/html; charset=windows1251");
-//        viewResolver.setOrder(1);
+        viewResolver.setContentType("text/html; charset=UTF-8");
         return viewResolver;
     }
 }
